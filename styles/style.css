@@ -1,0 +1,110 @@
+*{
+    font-family:"Noto Serif", serif;
+}
+/* shared styles */
+.flex{
+    display: flex;  
+}
+.grid{
+    display: grid;
+}
+.width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.primary-color{
+    color: #E95A08;
+}
+.secondary-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+.flower-name{
+    font-weight: 600;
+    font-size: 1.33rem;
+    color: #111111;
+}
+.price{
+    font-weight: 700;
+    font-size: 1.33rem;
+    color: #111111;
+}
+.card-btn{
+    background-color: #E95A08;
+    border: none;
+    padding: 10px 97px;
+    color: #FFFFFF;
+}
+/* navbar sections */
+.navbar{
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu li{
+    list-style: none;
+    padding-right: 4vw;
+}
+.menu li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.cart{
+    padding-left: 10px;
+}
+.menu li a:hover{
+    color: #000000;
+}
+
+/* banner sections */
+.banner{
+    margin-top: 4.25rem;
+}
+.banner-title-description{
+    max-width: 570px; 
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4.25rem;
+}
+.banner-img{
+    margin: 0 auto;
+    max-width: 570px;
+}
+
+/* card sections */
+.card-title-description{
+    margin-top: 50px;
+}
+.card-title{
+    font-size: 3.75rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+}
+.card-description{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 670px;
+}
+.cards{
+    margin-top: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.card{
+    justify-items: center;
+}
+
+@media screen and (max-width:576px){
+        .menu li{
+            visibility: hidden;
+        }
+        .banner{
+            flex-direction: column-reverse;
+        }
+        .cards{
+            grid-template-columns: repeat(2,1fr);
+        }           
+}
