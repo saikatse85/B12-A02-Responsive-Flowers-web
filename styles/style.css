@@ -184,5 +184,14 @@
         }
         .cards{
             grid-template-columns: repeat(2,1fr);
-        }           
+        }
+        .flowe-plant-lover{
+            flex-direction: column;
+        }
+        .join-input{
+            padding: 0.8rem 6rem 0.8rem 0.3rem;
+        }
+        .join-btn{
+            padding: 0.8rem 1rem 0.8rem 1rem;
+        }         
 }
