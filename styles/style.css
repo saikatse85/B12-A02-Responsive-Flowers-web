@@ -2,6 +2,9 @@
     font-family:"Noto Serif", serif;
 }
 /* shared styles */
+.font-inter{
+    font-family: "Inter", sans-serif;
+}
 .flex{
     display: flex;  
 }
@@ -48,6 +51,7 @@
 .menu li a{
     text-decoration: none;
     color: #8987A1;
+    font-family: "Inter", sans-serif;
 }
 .cart{
     padding-left: 10px;
@@ -221,6 +225,7 @@
 }
 .footer-description{
     color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
 }
 .footer-menu li{
     list-style: none;
@@ -229,6 +234,7 @@
 .footer-menu li a{
     text-decoration: none;
     color: #6B7280;
+    font-family: "Inter", sans-serif;
 }
 .terms-services li{
     list-style: none;
@@ -237,6 +243,7 @@
 .terms-services li a{
     text-decoration: none;
     color: #6B7280;
+    font-family: "Inter", sans-serif;
 }
 .social{
     grid-template-columns: repeat(4, 1fr);
