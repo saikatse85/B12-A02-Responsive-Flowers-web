@@ -104,6 +104,19 @@
 .flowe-plant-lover{
     gap: 70px;
 }
+.shop-badge{
+    position: relative;
+}
+.badge{
+    position: absolute;
+    left: 340px;
+    top: -130px;
+    animation: spin 3s infinite;
+}
+.badge img{
+    max-width: 300px;
+    max-height: 300px;
+}
 .lover-title{
     font-weight: 700;
     font-size: 3.5rem;
@@ -229,6 +242,15 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* Responsive small device for 576px */
 @media screen and (max-width:576px){
         .menu li{
             visibility: hidden;
@@ -241,6 +263,9 @@
         }
         .flowe-plant-lover{
             flex-direction: column;
+        }
+        .badge{
+            visibility: hidden;
         }
         .join-input{
             padding: 0.8rem 6rem 0.8rem 0.3rem;
