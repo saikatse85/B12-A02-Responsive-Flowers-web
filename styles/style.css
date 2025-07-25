@@ -110,12 +110,17 @@
 }
 .shop-badge{
     position: relative;
+    margin: 0 auto;
 }
 .badge{
     position: absolute;
     left: 340px;
     top: -130px;
     animation: spin 3s infinite;
+}
+.lover-img{
+    max-width: 100%;
+    margin: 0 auto;
 }
 .badge img{
     max-width: 300px;
@@ -125,6 +130,9 @@
     font-weight: 700;
     font-size: 3.5rem;
     color: #000000;
+}
+.lover-description-part{
+    margin: 0 auto;
 }
 .lover-description li{
     padding: 30px 0px;
@@ -278,9 +286,11 @@
         }
         .join-input{
             padding: 0.8rem 6rem 0.8rem 0.3rem;
+            margin: 0 auto;
         }
         .join-btn{
             padding: 0.8rem 1rem 0.8rem 1rem;
+            margin: 0 auto;
         } 
         .latest-deals-container{
             grid-template-columns:repeat(1, 2fr);
