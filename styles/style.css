@@ -140,7 +140,7 @@
     max-height: 423px;
 }
 .Latest-deals-left-top{
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 20%), rgba(0, 0, 0, 0.73)), url('/assets/deal-bloom.png');
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 20%), rgba(0, 0, 0, 0.73)), url('../assets/deal-bloom.png');
     background-repeat: no-repeat;
     width: 367px;
     height: 190px;
@@ -149,7 +149,7 @@
     text-align: center;
 }
 .Latest-deals-left-bottom{
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 20%), rgba(0, 0, 0, 0.73)), url('/assets/deal-ana.png');
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 20%), rgba(0, 0, 0, 0.73)), url('../assets/deal-ana.png');
     background-repeat: no-repeat;
     width: 367px;
     height:190px;
@@ -157,7 +157,7 @@
     text-align: center;
 }
 .Latest-deals-right{
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 20%), rgba(0, 0, 0, 0.73)), url('/assets/deal-zabo.png');
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 20%), rgba(0, 0, 0, 0.73)), url('../assets/deal-zabo.png');
     background-repeat: no-repeat;
     max-height: 423px;
     padding: 9.7rem 0px;
@@ -184,7 +184,7 @@
 }
 /* join section */
 .join{
-    background-image: url('/assets/news-letter-bg.png');
+    background-image: url('../assets/news-letter-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -263,12 +263,15 @@
         }
         .banner{
             flex-direction: column-reverse;
+            margin: 0 auto;
         }
         .cards{
             grid-template-columns: repeat(2,1fr);
+            margin: 0 auto;
         }
         .flowe-plant-lover{
             flex-direction: column;
+            margin: 0 auto;
         }
         .badge{
             visibility: hidden;
@@ -278,14 +281,19 @@
         }
         .join-btn{
             padding: 0.8rem 1rem 0.8rem 1rem;
-        }
-        .footer-container{
-            grid-template-columns: repeat(1, 1fr);
         } 
         .latest-deals-container{
             grid-template-columns:repeat(1, 2fr);
+            margin: 0 auto;
         }
         .Latest-deals{
+            margin: 0 auto;
+        }
+        .footer-container{
+            grid-template-columns: repeat(1, 1fr);
+            margin: 0 auto;
+        }
+        .lover-img{
             margin: 0 auto;
         }
 }
